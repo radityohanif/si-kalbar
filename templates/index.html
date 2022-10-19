@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>UAS Praktikum Big Data</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="{{url_for('static', filename='upnvj.ico')}}" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+</head>
+
+<body>
+    <content>
+        <div class="container text-center">
+            <img src="{{url_for('static', filename='logo upnvj.png')}}" alt="logo upnvj" height="150px">
+            <h1 class="fw-bold">UAS Praktikum Big Data</h1>
+            <span>Penerapan Visualisasi Big Data dengan Apache ECharts pada data set desa Provinsi Kalimantan Barat</span>
+            <div class="row mt-4">
+                <div class="col-lg-6 mb-4">
+                    <a class="btn container-fluid btn-outline-dark " target="_blank" href="{{url_for('discover')}}">Macam-macam grafik pada Apache Echarts</a>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <a class="btn container-fluid btn-outline-dark " target="_blank" href="{{url_for('echarts_json_data')}}">Impelementasi Apache Echarts pada data json</a>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <a class="btn container-fluid btn-outline-dark " target="_blank" href="{{url_for('echarts_csv_data')}}">Impelementasi Apache Echarts pada data csv</a>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <a class="btn container-fluid btn-outline-dark " target="_blank" href="{{url_for('echarts_pdf_data')}}">Impelementasi Apache Echarts pada data pdf</a>
+                </div>
+            </div>
+            <p>
+                <strong>
+                    Disusun oleh :
+                </strong>
+                Hanif Radityo, Muthiara Panghurina
+            </p>
+            <p>
+                <strong>
+                    Dosen pengampu :
+                </strong>
+                I Wayan Widi Pradnyana, S.Kom.,MTI
+            </p>
+        </div>
+    </content>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
